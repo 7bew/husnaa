@@ -599,7 +599,7 @@ function applyTheme(theme) {
   if (theme === 'dark') {
     document.documentElement.setAttribute('data-theme', 'dark');
   } else {
-    document.documentElement.removeAttribute('data-theme'); // حذف الخاصية يُرجع الموقع للوضع الفاتح الافتراضي
+    document.documentElement.removeAttribute('data-theme'); 
   }
 }
 
